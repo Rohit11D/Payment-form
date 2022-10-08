@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="payment_form_style.css">
+</head>
+
+<body >
+    <div class="container">
+    <form class="" action="mailto:priyankadangi2511@gmail.com" method="post">
+        <h1 class="main_heading">payment form</h1>
+        <p>Required fields are followed by * </p>
+        <h2>User Information</h2>
+        <p>pick your favourite color <input type="color" name="pick your favourite color "> </p>
+        <p> <input type="checkbox" ></p>
+        <input type="range" >
+        <p>Name: * <input type="text" name="name"required placeholder="Name"></p>
+        <p>
+        <fieldset>
+            <legend>Gender</legend>
+            male *<input type="radio" name="gender" id="male" required>
+            female *<input type="radio" name="gender" id="female"required></p>
+        </fieldset>
+        <p> Address: <textarea name="address" id="address" cols="100" rows="8" placeholder="Enter your address"></textarea> </p>
+        <p>Email:* <textarea name="" id="" cols="30" rows="10"></textarea required></p>
+        <p>email:* <input type="email" name="email" id="email" required></p>
+        <p>upload your adhar pdf : <input type="file"> </p>
+        <input type="range" >
+        <p>pincode:* <input type="number" name="pincode" id="pincode" required></p>
+        <hr>
+        <h2>payment information</h2>
+        <p>card type:*
+            <select name="card_type" id="card_type"required>
+                <option value="">--select a card type--</option>
+                <option value="visa">visa</option>
+                <option value="rupay">rupay</option>
+                <option value="mastercard">mastercard</option>
+
+
+            </select>
+
+        </p>
+        <p>card number:* <input type="number" name="card number" id="card number"required></p>
+        <p>Expiry date:* <input type="date" name="expiry date" id="expiry date" required></p>
+        <p>CVV:* <input type="number" name="cvv" id="cvv" required></p>
+        <p>CVV:* <input type="password" name="cvv" id="cvv" required></p>
+        <input type="submit" value="pay now">
+    </form>
+</div>
+</body>
+
+</html>
