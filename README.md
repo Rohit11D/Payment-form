@@ -1,2 +1,2 @@
-# Anormal payment form
+# A normal payment form
 
